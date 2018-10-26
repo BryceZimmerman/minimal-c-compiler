@@ -20,14 +20,23 @@ A "minimal" C compiler implementation developed for CS 4318 - Compiler Construct
 
 ## Running mcc:
 Runs the parser against the input file. No message means it passed.
+
 ```./mcc < inputFile.mC```
+
 Runs the parser against the input file and prints the AST.
+
 ```./mcc -p < inputFile.mC```
+
 Runs the parser against the input file and prints a global symbol table and any local symbol tables.
+
 ```./mcc -s < inputFile.mC```
+
 Generates code for the input file and prints the Activation Records list for the file.
+
 ```./mcc -a < inputFile.mC```
+
 Generates code for the input file as a out.asm file. This file is output in the mcc executable directory.
+
 ```./mcc -c < inputFile.mC```
 
 ## Notes:
